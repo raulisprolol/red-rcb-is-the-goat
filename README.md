@@ -1,6 +1,6 @@
-# Red RCB - The Goat
+# RCB Programming Language
 
-RCB Programming Language - The Ultimate Flight Simulator Experience
+RCB - The Ultimate Programming Language for Advanced Flight Simulation
 
 ## Features
 
