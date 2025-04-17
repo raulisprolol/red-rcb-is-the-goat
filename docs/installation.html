@@ -36,47 +36,54 @@
         </section>
 
         <section class="installation-section">
-            <h2>2. Game Engine Installation</h2>
-            <p>The RCB Language comes with its own game engine for flight simulation development.</p>
+            <h2>2. Compiler and Engine Setup</h2>
+            <p>The RCB Language compiler is tightly integrated with its game engine, providing a seamless development experience.</p>
 
-            <h3>DirectX 12 Setup</h3>
+            <h3>System Setup</h3>
             <ol>
-                <li>Download and install the latest Windows SDK</li>
-                <li>Install Visual Studio with C++ development tools</li>
+                <li>Install Visual Studio 2022 with C++ development tools</li>
+                <li>Install the Windows SDK</li>
                 <li>Ensure DirectX 12 is enabled in Windows Features</li>
+                <li>Install CMake</li>
             </ol>
 
-            <h3>Engine Components</h3>
+            <h3>Compiler and Engine Components</h3>
             <ul>
-                <li>Graphics Engine</li>
-                <li>Physics Simulation</li>
-                <li>Audio System</li>
-                <li>Input Handling</li>
-                <li>Network Support</li>
+                <li>Integrated Graphics Engine</li>
+                <li>Physics Simulation System</li>
+                <li>Audio Processing</li>
+                <li>Input Management</li>
+                <li>Network Integration</li>
+                <li>Shader Compiler</li>
+                <li>Package Management</li>
             </ul>
         </section>
 
         <section class="installation-section">
-            <h2>3. Language Setup</h2>
-            <p>RCB Language is integrated with the game engine for seamless development.</p>
+            <h2>3. Compiler Setup</h2>
+            <p>The RCB compiler includes the game engine as a core component for seamless development.</p>
 
             <h3>Development Environment</h3>
             <ol>
                 <li>Clone the repository:</li>
                 <pre><code>git clone https://github.com/raulisprolol/red-rcb-is-the-goat.git</code></pre>
-                <li>Install dependencies:</li>
-                <pre><code>cmake .</code></pre>
-                <li>Build the project:</li>
-                <pre><code>make</code></pre>
+                <li>Generate build files:</li>
+                <pre><code>mkdir build
+                cd build
+                cmake ..</code></pre>
+                <li>Build the compiler and engine:</li>
+                <pre><code>cmake --build . --config Release</code></pre>
             </ol>
 
-            <h3>Language Features</h3>
+            <h3>Compiler Features</h3>
             <ul>
-                <li>Native engine integration</li>
-                <li>Real-time flight simulation</li>
-                <li>Advanced physics support</li>
-                <li>Customizable aircraft systems</li>
-                <li>Multi-threaded performance</li>
+                <li>Integrated engine compilation</li>
+                <li>Real-time simulation optimization</li>
+                <li>Advanced physics compilation</li>
+                <li>Custom aircraft system generation</li>
+                <li>Multi-threaded compilation</li>
+                <li>Shader optimization</li>
+                <li>Package management integration</li>
             </ul>
         </section>
 
